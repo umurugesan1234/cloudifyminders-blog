@@ -95,6 +95,10 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
 
+collections:
+  posts:
+    output: true
+
 defaults:
   # _posts
   - scope:
@@ -114,6 +118,9 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+paginate: 5
+paginate_path: /page:num/
 
 category_archive:
   type: liquid
