@@ -1,7 +1,7 @@
 /* Make content area wider */
 .page__content,
 .page__inner-wrap {
-  max-width: 1600px !important;
+  max-width: 1800px !important;
 }
 
 /* Reduce base font size */
