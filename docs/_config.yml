@@ -25,15 +25,20 @@ github_username: username
 minimal_mistakes_skin: default
 search: true
 
-navigation:
-  - title: "Home"
-    url: /
-  - title: "Tags"
-    url: /tags/
-  - title: "Categories"
-    url: /categories/
-  - title: "About"
-    url: /about/
+sidebar:
+  nav: "main"
+
+nav:
+  main:
+    - title: "Home"
+      url: /
+    - title: "Tags"
+      url: /tags/
+    - title: "Categories"
+      url: /categories/
+    - title: "About"
+      url: /about/
+
 
 # Build settings
 markdown: kramdown
