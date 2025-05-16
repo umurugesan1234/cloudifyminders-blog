@@ -2,10 +2,9 @@
 .layout--single,
 .initial-content,
 .page {
-  max-width: 100% !important;
-  width: 100% !important;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  max-width: 80rem;  /* reasonable width */
+  margin: auto;
+  padding: 2rem;
   box-sizing: border-box;
 }
 
@@ -15,8 +14,7 @@
   max-width: 1200px !important;
   margin-left: auto;
   margin-right: auto;
-   padding-left: 2rem;
-  padding-right: 2rem;
+  padding: 2rem;;
   box-sizing: border-box;
 }
 
