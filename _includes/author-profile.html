@@ -1,0 +1,10 @@
+<!-- _includes/author-profile.html -->
+<div class="author__profile" style="display: flex; align-items: center; margin-top: 2rem;">
+  <div style="margin-right: 1rem;">
+    <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" style="border-radius: 50%; width: 100px; height: 100px; object-fit: cover;" />
+  </div>
+  <div>
+    <h3 style="margin-bottom: 0.2rem;">{{ site.author.name }}</h3>
+    <p style="margin: 0;">{{ site.author.bio }}</p>
+  </div>
+</div>
