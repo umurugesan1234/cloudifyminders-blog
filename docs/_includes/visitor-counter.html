@@ -1,0 +1,10 @@
+<div id="visitor-counter">
+  👁️ Views: <span id="views-count">0</span>
+</div>
+<script>
+  const key = `views-${location.pathname}`;
+  let views = localStorage.getItem(key) || 0;
+  views++;
+  localStorage.setItem(key, views);
+  document.getElementById("views-count").innerText = views;
+</script>
