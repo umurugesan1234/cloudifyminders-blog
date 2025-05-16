@@ -12,7 +12,7 @@
 .page__inner-wrap,
 .page__content {
   max-width: 1200px !important;
-  margin-left: 10px !important;
+  margin-left: auto;
   margin-right: auto;
   padding: 0rem !important;
   box-sizing: border-box;
