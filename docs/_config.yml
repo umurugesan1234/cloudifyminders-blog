@@ -111,6 +111,7 @@ defaults:
       comments: true
       share: true
       related: true
+      
   # _pages
   - scope:
       path: "_pages"
@@ -118,6 +119,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      css: "/assets/css/custom.css"
 
 paginate: 5
 paginate_path: /page:num/
