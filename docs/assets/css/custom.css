@@ -13,8 +13,10 @@
 .page__inner-wrap,
 .page__content {
   max-width: 1200px !important;
-  width: 100%;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  box-sizing: border-box;
 }
 
 /* Typography tweaks */
