@@ -5,7 +5,7 @@ tags: [cloud security, application security, devsecops, azure, zero trust]
 layout: single
 author_profile: false
 sidebar:
-  nav: "main"
+  nav: main
 ---
 
 # The Urgency of Application Security in the Cloud
