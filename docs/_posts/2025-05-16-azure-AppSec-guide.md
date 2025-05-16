@@ -3,6 +3,8 @@ date: 2025-05-16
 author: Murugesan U
 tags: [cloud security, application security, devsecops, azure, zero trust]
 layout: single
+sidebar:
+  nav: "main"
 ---
 
 # The Urgency of Application Security in the Cloud
