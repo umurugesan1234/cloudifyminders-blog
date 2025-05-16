@@ -87,19 +87,19 @@ While helpful, these tools focus on **network and infrastructure**, not on your 
 
 1. **SQL Injection – Freepik & Flaticon Breach**  
 Hackers exploited an SQL injection vulnerability in the Flaticon website to steal emails and password hashes of 8.3 million users.  
-[🔗 Read More](https://www.bleepingcomputer.com/news/security/flaticon-discloses-data-breach-83-million-users-affected/)
+[🔗 Read More](https://www.bankinfosecurity.com/massive-freepik-data-breach-tied-to-sql-injection-attack-a-14880)
 
 2. **Cross-Site Scripting – Fortnite**  
 A stored XSS flaw in Fortnite's old website allowed attackers to hijack accounts and make purchases using users' saved credit card details.  
-[🔗 Read More](https://thehackernews.com/2019/01/fortnite-account-hack.html)
+[🔗 Read More](https://portswigger.net/daily-swig/xss-slip-up-exposed-fortnite-gamers-to-account-hijack)
 
 3. **DDoS Attack – Dyn DNS Outage (2016)**  
 A massive DDoS attack on Dyn disrupted internet access to major platforms including Twitter, Netflix, and GitHub.  
-[🔗 Read More](https://www.cisa.gov/news-events/news/incident-response-dyn-ddos-attack-october-2016)
+[🔗 Read More](https://www.vxchnge.com/blog/recent-ddos-attacks-on-companies#amazon-web-services-2020)
 
 4. **API Exposure – Twitter API Vulnerability (2020)**  
 A flawed API allowed attackers to match phone numbers with Twitter usernames, exposing sensitive information.  
-[🔗 Read More](https://www.bleepingcomputer.com/news/security/twitter-admits-hackers-used-api-to-match-usernames-to-phone-numbers/)
+[🔗 Read More](https://www.zdnet.com/article/twitter-says-an-attacker-used-its-api-to-match-usernames-to-phone-numbers/)
 
 
 ---
