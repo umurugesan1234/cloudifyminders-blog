@@ -61,7 +61,14 @@ plugins:
 author:
   name   : "Murugesan U"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I'm a technology enthusiast and solution architect with hands-on experience across cloud, DevOps, AI, data platforms, infrastructure, applications, and databases. I use this space to share insights, best practices, and real-world solutions in emerging technologies."
+  bio: |
+    Murugesan U is an experienced Solution Architect with a strong track record of designing 
+    and delivering scalable, high-impact technology solutions. He is passionate about enabling 
+    digital transformation and helping organizations achieve strategic goals through innovative 
+    and efficient architectures. With a deep understanding of enterprise systems and a commitment 
+    to continuous learning, Murugesan partners with stakeholders to align technology with 
+    business outcomes.
+  location: "Chennai,IN"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
