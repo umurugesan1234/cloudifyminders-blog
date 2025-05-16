@@ -2,7 +2,7 @@
 .layout--single,
 .initial-content,
 .page {
-  max-width: 90rem;  /* reasonable width */
+  max-width: 95rem;  /* reasonable width */
   margin: auto;
   padding: 2rem;
   box-sizing: border-box;
