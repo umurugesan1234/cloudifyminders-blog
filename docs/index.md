@@ -1,2 +1,5 @@
-<!-- docs/index.md -->
-TechAdvantX Blogs 
+---
+layout: home
+title: "TechAdvantX Blogs"
+author_profile: true
+---
