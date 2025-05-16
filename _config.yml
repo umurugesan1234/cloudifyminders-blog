@@ -59,9 +59,16 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Murugesan U"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio: |
+    Murugesan U is an experienced Solution Architect with a strong track record of designing 
+    and delivering scalable, high-impact technology solutions. He is passionate about enabling 
+    digital transformation and helping organizations achieve strategic goals through innovative 
+    and efficient architectures. With a deep understanding of enterprise systems and a commitment 
+    to continuous learning, Murugesan partners with stakeholders to align technology with 
+    business outcomes.
+  location: "Chennai,IN"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
