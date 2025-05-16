@@ -34,7 +34,7 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
+head: custom-head
 include:
   - _pages
   - _includes
@@ -106,7 +106,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: default
+      layout: single
       author_profile: true
       read_time: true
       comments: true
