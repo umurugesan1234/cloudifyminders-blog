@@ -1,22 +1,24 @@
-/* Make content area wider */
-.page__content,
-.page__inner-wrap {
-  max-width: 2000px !important;
+/* Expand outer layout containers */
+.layout--single,
+.initial-content,
+.page {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  box-sizing: border-box;
 }
 
-/* Reduce base font size */
+/* Widen inner content area */
+.page__inner-wrap,
+.page__content {
+  max-width: 1200px !important;
+  width: 100%;
+  margin: auto;
+}
+
+/* Typography tweaks */
 body {
   font-size: 15px !important;
-  line-height: 1.4;
-}
-
-/* Optional: reduce heading sizes for better hierarchy */
-h1 {
-  font-size: 1.75em;
-}
-h2 {
-  font-size: 1.5em;
-}
-h3 {
-  font-size: 1.25em;
+  line-height: 1.6;
 }
