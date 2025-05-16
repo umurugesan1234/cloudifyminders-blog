@@ -1,5 +1,4 @@
 ---
-title: The Urgency of Application Security in the Cloud
 date: 2025-05-16
 author: Murugesan U
 tags: [cloud security, application security, devsecops, azure, zero trust]
@@ -26,11 +25,9 @@ tags: [cloud security, application security, devsecops, azure, zero trust]
 
 ## Understanding Application Security in the Cloud
 
-In today’s cloud-native world, shifting applications to platforms like Microsoft Azure brings agility and scalability—but it also introduces new security challenges. A common misconception is that cloud providers are responsible for *everything*. In reality, while Azure secures the infrastructure, **you are responsible for securing your application**.
+In today’s cloud-native landscape, migrating applications to the cloud offers agility and scalability—but it also introduces evolving security challenges. A common misconception is that the cloud provider handles all aspects of security. In reality, security in the cloud follows a shared responsibility model: while the cloud provider secures the underlying infrastructure, customers are responsible for securing their applications, data, and access controls.
 
 Application security in the cloud involves a continuous process of identifying vulnerabilities, patching weaknesses, and preventing future threats—especially under the shared responsibility model.
-
----
 
 ## A Framework for Continuous Protection
 
@@ -57,7 +54,7 @@ Remediate issues before they become incidents:
 
 Harden your systems to avoid repeat flaws:
 - Adopt **shift-left security** practices
-- Enforce **Azure Policies** and **Blueprints**
+- Enforce **Azure Policies**
 - Educate developers and automate security guardrails
 
 ---
@@ -92,6 +89,7 @@ While helpful, these tools focus on **network and infrastructure**, not on your 
 
 ### SQL Injection – *Freepik / Flaticon*
 Hackers exploited an SQL injection flaw to steal 8.3 million users’ email addresses and password hashes.
+🔗 Read More
 
 ### XSS – *Fortnite*
 Stored XSS on Fortnite’s site let attackers hijack accounts and make purchases using saved credit cards.
