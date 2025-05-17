@@ -54,7 +54,7 @@ include:
   - _pages
   - _includes
 
-head: custom-head
+#head: custom-head
  # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -141,8 +141,8 @@ defaults:
       layout: single
       author_profile: false
 
-paginate: 5
-paginate_path: /page:num/
+# paginate: 5
+ #paginate_path: /page:num/
 
 category_archive:
   type: liquid
