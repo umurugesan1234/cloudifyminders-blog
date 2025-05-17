@@ -48,4 +48,8 @@ a.headerlink {
 .greedy-nav .search__toggle {
   display: none !important;
 }
+body {
+  background: #ffe8e8 !important;
+}
+
 
