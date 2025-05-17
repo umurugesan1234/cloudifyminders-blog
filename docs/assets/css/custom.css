@@ -33,3 +33,12 @@ body {
 a.headerlink {
   display: none !important;
 }
+
+.headerlink {
+  display: none !important;
+}
+.greedy-nav__toggle,
+.search__toggle {
+  display: none !important;
+}
+
