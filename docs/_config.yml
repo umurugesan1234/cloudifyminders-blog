@@ -131,6 +131,7 @@ defaults:
       comments: true
       share: true
       related: true
+      headerlink: false
 
       
   # _pages
