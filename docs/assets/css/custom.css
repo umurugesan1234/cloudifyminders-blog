@@ -34,11 +34,18 @@ a.headerlink {
   display: none !important;
 }
 
-.headerlink {
+.page__content .headerlink {
   display: none !important;
 }
+
 .greedy-nav__toggle,
 .search__toggle {
+  display: none !important;
+}
+
+.greedy-nav__toggle,
+.search__toggle,
+.greedy-nav .search__toggle {
   display: none !important;
 }
 
