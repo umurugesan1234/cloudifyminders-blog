@@ -35,7 +35,7 @@ Fusion is not a new model, and it is not the agent harness either. The easiest w
 
 Fusion works in three patterns. In **Single**, one model handles the task end to end. In **Cascade**, a cheaper model tries first and the task moves up to a stronger model only when needed. In **Critique**, one model does the work and another reviews it before the answer is final.
 
-![GitHub Copilot Fusion screenshot](/assets/images/copilot-fusion/copilot-fusion-01.png)
+![GitHub Copilot Fusion screenshot](/assets/images/assets/images/copilot-fusion/copilot-fusion-01.png)
 
 You can also pick an effort level (Standard, High or Max) depending on how much you want to spend for quality. Fusion became generally available on 28 October 2026 and came out of an internal effort called Project HydraFusion.
 
@@ -89,7 +89,7 @@ Here is the short version before we get into the full tables.
 
 ### DeepSWE 1.1
 
-![GitHub Copilot Fusion screenshot](/assets/images/copilot-fusion/copilot-fusion-02.png)
+![GitHub Copilot Fusion screenshot](/assets/images/assets/images/copilot-fusion/copilot-fusion-02.png)
 
 | Configuration | Pass rate | Cost per task |
 | --- | --- | --- |
@@ -142,33 +142,33 @@ Fusion is available in VS Code, the GitHub Copilot CLI and the GitHub Copilot ap
 
 Step 1: Open VS Code with an existing project or a new one, and open the Copilot Chat window.
 
-![GitHub Copilot Fusion screenshot](/assets/images/copilot-fusion/copilot-fusion-03.png)
+![GitHub Copilot Fusion screenshot](/assets/images/assets/images/copilot-fusion/copilot-fusion-03.png)
 
 Step 2: In the chat window, click the model picker and select Copilot Fusion.
 
-![GitHub Copilot Fusion screenshot](/assets/images/copilot-fusion/copilot-fusion-04.png)
+![GitHub Copilot Fusion screenshot](/assets/images/assets/images/copilot-fusion/copilot-fusion-04.png)
 
 Step 3: Choose the effort level: Standard, High or Max. Standard is selected by default. In my setup Max is greyed out; as mentioned earlier, this happens when an admin has disabled one of the models Fusion Max needs.
 
-![GitHub Copilot Fusion screenshot](/assets/images/copilot-fusion/copilot-fusion-05.png)
+![GitHub Copilot Fusion screenshot](/assets/images/assets/images/copilot-fusion/copilot-fusion-05.png)
 
 ### In the Copilot CLI
 
 Step 1: Open a terminal or command prompt in your project folder.
 
-![GitHub Copilot Fusion screenshot](/assets/images/copilot-fusion/copilot-fusion-06.png)
+![GitHub Copilot Fusion screenshot](/assets/images/assets/images/copilot-fusion/copilot-fusion-06.png)
 
 Step 2: Type copilot and press Enter to launch the GitHub Copilot CLI.
 
-![GitHub Copilot Fusion screenshot](/assets/images/copilot-fusion/copilot-fusion-07.png)
+![GitHub Copilot Fusion screenshot](/assets/images/assets/images/copilot-fusion/copilot-fusion-07.png)
 
 Step 3: In the chat, type the /model command.
 
-![GitHub Copilot Fusion screenshot](/assets/images/copilot-fusion/copilot-fusion-08.png)
+![GitHub Copilot Fusion screenshot](/assets/images/assets/images/copilot-fusion/copilot-fusion-08.png)
 
 Step 4: Press Enter to see all the models, with Copilot Fusion at the top. Use the left and right arrow keys to choose the effort level (Standard, High or Max), then press Enter.
 
-![GitHub Copilot Fusion screenshot](/assets/images/copilot-fusion/copilot-fusion-09.png)
+![GitHub Copilot Fusion screenshot](/assets/images/assets/images/copilot-fusion/copilot-fusion-09.png)
 
 Tip: for a one-off command you can skip the picker and run: copilot --model fusion --fusion-tier high -p "your prompt". To make Fusion your default for future sessions, use /config model.
 
@@ -176,15 +176,15 @@ Tip: for a one-off command you can skip the picker and run: copilot --model fusi
 
 Step 1: Open the GitHub Copilot app.
 
-![GitHub Copilot Fusion screenshot](/assets/images/copilot-fusion/copilot-fusion-10.png)
+![GitHub Copilot Fusion screenshot](/assets/images/assets/images/copilot-fusion/copilot-fusion-10.png)
 
 Step 2: Click the model shown below the prompt box, then switch on the Copilot Fusion toggle.
 
-![GitHub Copilot Fusion screenshot](/assets/images/copilot-fusion/copilot-fusion-11.png)
+![GitHub Copilot Fusion screenshot](/assets/images/assets/images/copilot-fusion/copilot-fusion-11.png)
 
 Step 3: Choose the effort level: Standard, High or Max. The model shown below the prompt box then changes to Copilot Fusion · Standard (or whichever level you picked).
 
-![GitHub Copilot Fusion screenshot](/assets/images/copilot-fusion/copilot-fusion-12.png)
+![GitHub Copilot Fusion screenshot](/assets/images/assets/images/copilot-fusion/copilot-fusion-12.png)
 
 If you tried the earlier research preview, you may still see a "HydraFusion" toggle under Settings > Agents. After updating the app, just use the Copilot Fusion switch in the model picker; your preview choice moves across automatically.
 
